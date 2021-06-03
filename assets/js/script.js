@@ -54,7 +54,7 @@ animation.reveal(".skills__img",{delay:400})
 animation.reveal(".work__img",{delay:200})
 
 animation.reveal(".label",{delay:200})
-animation.reveal(".contact__input",{delay:300})
+
 
 /* enviar mail */
 
