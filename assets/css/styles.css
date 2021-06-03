@@ -17,7 +17,7 @@
   --normal-font-size: 1rem;
 }
 
-@media screen and (min-width: 765px) {
+@media screen and (min-width: 770px) {
   :root {
     --big-font-size: 3.5rem;
     --h2-font-size: 2rem;
@@ -422,7 +422,7 @@ img {
   border-radius: 0.5rem;
   border: 2px solid palevioletred;
   outline: none;
-  margin-bottom:20px;
+  margin-bottom: 20px;
   margin-top: 20px;
   font-style: italic;
 }
@@ -560,8 +560,52 @@ img {
   outline: none;
 }
 
-.swal-button:hover{
-    background-color: #f18af5 !important;
-    border: 0;
-    outline: none;
+.swal-button:hover {
+  background-color: #f18af5 !important;
+  border: 0;
+  outline: none;
 }
+
+@media screen and (max-width: 500px) {
+
+  .home__data{
+    margin-top: -5rem;
+  }
+
+  .home__social{
+    margin-top: -5rem;
+    display: inline;
+  }
+  .home__img{
+    display: flex;
+    width: 250px;
+    margin-bottom: 50px;
+  }
+  .contact__container {
+    margin: auto;
+  }
+} 
+
+@media screen and (max-width: 360px) {
+
+  .home__data{
+    margin-top: -4rem;
+  }
+
+  .home__social{
+    margin-top: -5rem;
+    display: inline;
+  }
+  .home__img{
+    width: 150px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+  }
+  .contact__container {
+    margin: auto;
+  }
+} 
+
+
+
+
